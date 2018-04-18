@@ -6,7 +6,7 @@ Each folder has the source code for a specific application/visualizer.
 
 To run :  
 1. Download Processing 3.0
-1. Open a file with Processing and click the run button on the top left
+1. Open a file with Processing and click the run button on the top left. (May need to install minim audio library)
 1. Application will draw audio from computers input, which usually defaults to microphone. (can adjust input on own computer to route to system sound.)
   1. To route system sound to input for Mac, follow instruction at this link: http://osxdaily.com/2013/02/25/record-system-audio-mac-os-x-soundflower/
 
