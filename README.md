@@ -1,5 +1,5 @@
 # ProcessingVisualizer
-Repository holding files for a Processing music visualizer. 
+Repository holding files for a Processing music visualizer, which takes sound input and uses audio level/volume and beat detection to generate a colorful visualization via Perlin Noise.
 
 Each folder has the source code for a specific application/visualizer. 
 
