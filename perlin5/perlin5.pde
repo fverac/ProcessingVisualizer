@@ -78,24 +78,13 @@ void draw() {
     stroke((linecolor+2*i+linecolor-1)%100,100,100, i/2 ); //creates gradient between different lines
     
     //Set of Background Lines
-    //line (x1(t+i),y1(t+i)+100,x2(t+i),y2(t+i)+100); 
-    //line (x1(t2+i),-y1(t2+i)-200,x2(t2+i),-y2(t2+i)-200);
  
     //vertical pairs
  
-    //line (y1(t2+i)-300,x1(t2+i),y2(t2+i)-300,x2(t2+i)); //middle bottom left incorrect
-    line (-(y1(t2+i)+300),-x1(t2+i),-(y2(t2+i)+300),-x2(t2+i)); //left side top
-    //line (y1(t2+i)+300,x1(t2+i),y2(t2+i)+300,x2(t2+i));  //right side bottom
-    //line (-(y1(t2+i)-300),-x1(t2+i),-(y2(t2+i)-300),-x2(t2+i)); //middle top right incorrect
-    
+    line (-(y1(t2+i)+300),-x1(t2+i),-(y2(t2+i)+300),-x2(t2+i)); //left side top   
     line (y1(t+i),x1(t+i),y2(t+i),x2(t+i)); //middle bottom right correct
     line (-(y1(t+i)),-x1(t+i),-(y2(t+i)),-x2(t+i)); //middle top left correct
-    //mirrored pairs  
-  
-    //line (-y1(t2+i)-300,x1(t2+i),-y2(t2+i)-300,x2(t2+i)); left side bottom
     line ((y1(t2+i)+300),-x1(t2+i),(y2(t2+i)+300),-x2(t2+i)); //right side top
-    ///line (-y1(t2+i)+300,x1(t2+i),-y2(t2+i)+300,x2(t2+i)); middle bottom right incorrect
-    //line ((y1(t2+i)-300),-x1(t2+i),(y2(t2+i)-300),-x2(t2+i)); //middle top left incorrect
     line (-y1(t+i),x1(t+i),-y2(t+i),x2(t+i)); //middle bottom left correct
     line ((y1(t+i)),-x1(t+i),(y2(t+i)),-x2(t+i)); //middle top right correct
     
